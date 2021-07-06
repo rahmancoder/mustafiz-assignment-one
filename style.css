@@ -1,0 +1,34 @@
+body{
+margin:0;
+
+}
+h1{
+    font-size: 40px;
+}
+
+section{
+    display: flex;
+}
+
+.color{
+color: aquamarine;
+}
+
+.half-width{
+width: 50%;
+
+}
+
+.half-width img{
+width: 80%;
+
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 11px 35px;
+    border-radius: 4px;
+    background-color: blueviolet;
+
+}
