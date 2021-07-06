@@ -23,6 +23,7 @@ color: aquamarine;
 .half-width{
 width: 50%;
 padding-left: 3%;
+padding-right: 2%;
 
 }
 
@@ -46,6 +47,7 @@ width: 85%;
     background-repeat: no-repeat;
    
 }
+
 
 .mustafiz-recipe{
     text-align: center;
@@ -77,4 +79,12 @@ width: 85%;
     border-radius: 20x;
     box-shadow: 11px 11px 40px gray;
 
+}
+
+footer{
+    text-align: center;
+    font-weight: 700;
+    color: whitesmoke;
+    padding: 4px 4px;
+    background-color: black;
 }
