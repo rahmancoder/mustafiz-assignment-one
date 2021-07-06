@@ -8,6 +8,7 @@ h1{
 
 section{
     display: flex;
+    margin-bottom: 120px;
 }
 
 .color{
@@ -20,7 +21,7 @@ width: 50%;
 }
 
 .half-width img{
-width: 80%;
+width: 85%;
 
 }
 .link-button{
@@ -29,6 +30,13 @@ width: 80%;
     font-weight: 700;
     padding: 11px 35px;
     border-radius: 4px;
-    background-color: blueviolet;
+    background-image: linear-gradient(yellow, rgba(255, 0, 0, 0.459));
+   /* background-color: blueviolet; */
 
+}
+
+.background-banner{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+   
 }
