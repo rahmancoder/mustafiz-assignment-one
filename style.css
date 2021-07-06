@@ -1,22 +1,28 @@
 body{
 margin:0;
+font-family: 'Roboto Mono', monospace;
 
 }
 h1{
     font-size: 40px;
 }
-
+/*
 section{
     display: flex;
     margin-bottom: 120px;
 }
-
+*/
+.flexible-container{
+    display: flex;
+    margin-bottom: 120px;
+}
 .color{
 color: aquamarine;
 }
 
 .half-width{
 width: 50%;
+padding-left: 3%;
 
 }
 
@@ -39,4 +45,27 @@ width: 85%;
     background-image: url(images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
    
+}
+
+.mustafiz-recipe{
+    text-align: center;
+}
+
+.mustafiz-recipe p{
+   text-align: center;
+   margin-bottom: 10px;    
+}
+ 
+.mustafiz-recipe img{
+    border-radius: 15px;
+}
+
+.item-shadow{
+    width: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 25px 5px;
+    border-radius: 20x;
+    box-shadow: 11px 11px 40px gray;
+
 }
